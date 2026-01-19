@@ -34,4 +34,5 @@ label{
     font-weight: 600;
 }
 
-
+input[type="text"]{
+    width: 95%;
