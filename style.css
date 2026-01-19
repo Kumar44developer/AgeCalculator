@@ -36,3 +36,5 @@ label{
 
 input[type="text"]{
     width: 95%;
+    padding: 10px;
+    font-size: 16px;
