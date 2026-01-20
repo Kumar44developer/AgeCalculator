@@ -12,3 +12,5 @@ const birthDate = new Date(birthYear,birthMonth,birthDay);
 
 console.log(birthdateInput);
 console.log(birthdateParts);
+console.log(birthDay);
+
