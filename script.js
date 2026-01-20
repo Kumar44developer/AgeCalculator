@@ -9,3 +9,5 @@ const birthMonth = birthdateParts[1] - 1;
 const birthYear = birthdateParts[2];
 
 const birthDate = new Date(birthYear,birthMonth,birthDay);
+
+console.log(birthdateInput);
