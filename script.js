@@ -14,5 +14,7 @@ console.log(birthdateInput);
 console.log(birthdateParts);
 console.log(birthDay);
 console.log(birthMonth);
+console.log(birthYear);
+
 
 
