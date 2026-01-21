@@ -42,6 +42,8 @@ const result = document.getElementById("result");
 result.innerHTML = `
       <div class="result-item">
             <h3>Age:</h3>
+    </div>  
+    <div class="result-item">
 
 
 
