@@ -56,6 +56,8 @@ result.innerHTML = `
       <p>${ageInDays} </p>
      </div> 
      <div class="result-item">
+    <h3>Hours Passed:</h3>
+    <p>${ageInHours} </p>
 
 
 
