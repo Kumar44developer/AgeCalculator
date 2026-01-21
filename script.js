@@ -22,4 +22,5 @@ const isValidDate = (date) =>{
     );
 };
 
+if(!isValidDate(birthDate)){
 
