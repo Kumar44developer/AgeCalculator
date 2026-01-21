@@ -23,4 +23,6 @@ const isValidDate = (date) =>{
 };
 
 if(!isValidDate(birthDate)){
+alert("Invalid Date Format: Please Enter a valid date in DD-MM-YYYY format.");
+
 
