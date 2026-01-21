@@ -31,6 +31,8 @@ const ageInMilliseconds = today - birthDate;
 const ageInseconds = Math.floor(ageInMilliseconds/1000);
 const ageInMinutes = Math.floor(ageInseconds/60);
 const ageInHours= Math.floor(ageInMinutes/60);
+const ageInDays= Math.floor(ageInHours/24);
+
 
 
 
