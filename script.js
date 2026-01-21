@@ -40,6 +40,7 @@ const resultContainer = document.getElementById("resultContainer");
 const result = document.getElementById("result");
 
 result.innerHTML = `
+      <div class="result-item">
 
 
 
