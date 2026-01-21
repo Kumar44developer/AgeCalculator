@@ -69,7 +69,9 @@ result.innerHTML = `
      </div> 
 `;
 
+   resultContainer.style.display = "block";
 
+}
 
 
 
