@@ -28,4 +28,6 @@ alert("Invalid Date Format: Please Enter a valid date in DD-MM-YYYY format.");
     }
 
 const ageInMilliseconds = today - birthDate;  
+const ageInseconds = Math.floor(ageInMilliseconds/1000);
+
 
