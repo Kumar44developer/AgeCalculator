@@ -27,4 +27,5 @@ alert("Invalid Date Format: Please Enter a valid date in DD-MM-YYYY format.");
     return;
     }
 
+const ageInMilliseconds = today - birthDate;  
 
