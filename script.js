@@ -36,6 +36,7 @@ const ageInWeeks= Math.floor(ageInDays/7);
 const ageInMonths= Math.floor(ageInDays/30.436875);
 const ageInYears= Math.floor(ageInDays/365.25);
 
+const resultContainer = document.getElementById("resultContainer");
 
 
 
