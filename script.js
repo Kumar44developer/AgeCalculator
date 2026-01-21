@@ -16,5 +16,6 @@ console.log(birthDay);
 console.log(birthMonth);
 console.log(birthYear);
 
+const isValidDate = (date) =>{
 
 
