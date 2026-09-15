@@ -10,12 +10,6 @@ const birthYear = birthdateParts[2];
 
 const birthDate = new Date(birthYear,birthMonth,birthDay);
 
-console.log(birthdateInput);
-console.log(birthdateParts);
-console.log(birthDay);
-console.log(birthMonth);
-console.log(birthYear);
-
 const isValidDate = (date) =>{
     return(
         Object.prototype.toString.call(date) === "[object Date]" && !isNaN(date)  
@@ -40,9 +34,10 @@ const resultContainer = document.getElementById("resultContainer");
 const result = document.getElementById("result");
 
 result.innerHTML = `
-      <div class="result-item">
-            <h3>Age:</h3>
-    </div>  
+    <div class="result-item">
+        <h3>Years Passed:</h3>
+        <p>${ageInYears} </p>
+    </div>
     <div class="result-item">
 <h3>Months Passed:</h3>
 <p>${ageInMonths} </p>
@@ -72,6 +67,11 @@ result.innerHTML = `
    resultContainer.style.display = "block";
 
 }
+
+document.getElementById("ageCalculator").addEventListener("submit", function (event) {
+    event.preventDefault();
+    calculateAge();
+});
 
 
 
